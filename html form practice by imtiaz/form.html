@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>html form design</title>
+</head>
+<body>
+    <form action="new.html" method="GET">
+        <input type="text" name="name" placeholder="Enter your name">
+        <input type="number" name="age" placeholder="Enter your age">
+        <input type="date" name="birthdady" placeholder="Enter your birthday date">
+        <input type="password" name="password" placeholder="Enter your password">
+        <input type="email" name="email" placeholder="Enter your email">
+        <input type="color" name="color">
+        <br><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="sex" value="male">
+        <br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="sex" value="female">
+        <br>
+        <label for="other">Others</label>
+        <input type="radio" id="other" name="sex" value="other">
+        <br><br>
+        <h1>Hobby</h1>
+        <label for="gardening">Gardening</label>
+        <input type="checkbox" id="gardening" name="hobby[]" value="gardening">
+        <br>
+        <label for="swiming">Swiming</label>
+        <input type="checkbox" id="swiming" name="hobby[]" value="swiming">
+        <br>
+        <label for="playing">Playing</label>
+        <input type="checkbox" id="playing" name="hobby[]" value="playing">
+        <br><br>
+        <select name="district" id="district">
+            <option value="dhaka">Dhaka</option>
+            <option value="comilla">Comilla</option>
+            <option value="chittagong">chittagong</option>
+            <option value="coxsbazar">Coxsbazar</option>
+
+        </select>
+        <br>
+        <button>Submit</button>
+
+
+    </form>
+</body>
+</html>
